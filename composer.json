@@ -49,8 +49,10 @@
         "preferred-install": "dist"
     },
     "minimum-stability": "beta",
-    "repositories": [
-        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
-        {"packagist": false}
-    ]
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        }
+    }
 }
