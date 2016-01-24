@@ -1,0 +1,3 @@
+[submodule "extensions/flarum-ext-simplified-chinese"]
+	path = extensions/flarum-ext-simplified-chinese
+	url = https://github.com/jsthon/flarum-ext-simplified-chinese.git
