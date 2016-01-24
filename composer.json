@@ -48,5 +48,9 @@
     "config": {
         "preferred-install": "dist"
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "repositories": [
+        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
+        {"packagist": false}
+    ]
 }
